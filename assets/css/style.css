@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-right: 10rem;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 7px;
+   
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+button {
+    background-color: #4450bc;
+    color: white;
+    padding: 15px 7rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
+
+p {
+    margin-top: 20px;
+}
+
+.edit {
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
